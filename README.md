@@ -1,12 +1,27 @@
-# Fork from cmdc0de/Wolfshade for Defcon 25 DarkNet
+# WolfshadeMud
 
-# WolfshadeMud: Build and Run
+## Preprequisites
+### Fedora
+```
+# dnf install autoconf gcc gcc-c++
+```
 
+### Ubuntu/Debian
+```
+# apt-get install make autoconf gcc g++ 
+```
 
-* run autoconfig
-* ./configure
-* make
-* touch players/players.wolfshade
-* bin/wolfhade &
+## Build 
 
+```
+# cd WolfshadeMud/src/
+# autoconf
+# ./configure
+# make
+```
 
+## Starting Server
+```
+# cd WolfshadeMud/bin/
+# ./wolfshade
+```
