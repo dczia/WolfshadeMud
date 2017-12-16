@@ -22,6 +22,8 @@
 
 ## Starting Server
 ```
+# cd WolfshadeMud/
+# touch players/players.wolfshade
 # ./bin/wolfshade
 ```
 
